@@ -9,7 +9,7 @@ The data file used is from [SmartPhone Human Activity Data] (https://d396qusza40
 #H2 
 Contents of the repository
 README.md - This file <br>
-CodeBook.md - Describes data and transformations
-run_analysis.R - R Program that performns analysis/transformations as specified in the project
-averages_data.txt - output of run_analysis.R
+CodeBook.md - Describes data and transformations <bd>
+run_analysis.R - R Program that performns analysis/transformations as specified in the project <br>
+averages_data.txt - output of run_analysis.R <br>
 
