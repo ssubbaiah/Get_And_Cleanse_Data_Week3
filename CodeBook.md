@@ -1,7 +1,6 @@
 #H1
-Project CodeBook
-##H2 
-Introduction
+Project CodeBook <br>
+##H2 Introduction
 program name: run_analysis.R <br>
 The program does the following <br>
 1. Merges the training and the test sets to create one data set. <br>
@@ -10,8 +9,7 @@ The program does the following <br>
 4. Appropriately labels the data set with descriptive variable names. <br>
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. <br>
 
-##H2
-Program Flow
+##H2  Program Flow
 1. Read headers for Activiy and Subject <br>
 2. Read train and test data for x,y and subject and merge train and test data set for each of them <br>
 3. Subset X data for column names containing "mean" or "std" <br>
@@ -21,10 +19,10 @@ Program Flow
 7. Write the combined data to output file <br>
 
 
-#H2 
-variables
+#H2 Variables
 1. Data downloaded from file are contained in :  *text_x, train_x, test_y, train_y, test_sub, train_sub* <br>
 2. Column headers downloaded from file are in: *activity_label, featured_label* <br>
-3. Test and Train data comobined are in : **all-x, all_y, all_sub**  <bd>
-4. Column names that contain mean or std in *mean_std_cols*
-5. Final cleansed data is in **full_data**
+3. Test and Train data comobined are in : **all-x, all_y, all_sub**  <br>
+4. Column names that contain mean or std in *mean_std_cols* <br>
+5. Final cleansed data is in **full_data** <bd>
+
